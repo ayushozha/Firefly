@@ -1,0 +1,26 @@
+{
+  "pr": "https://github.com/CuteLeaf/Firefly/pull/677",
+  "tested_commit": "f9f99a4afd04a3b591eff3e45e47782ad70514a1",
+  "node": "26.6.0",
+  "pnpm": "11.22.0",
+  "checks": {
+    "pnpm install --frozen-lockfile": "passed",
+    "pnpm check": "passed; 259 files, 0 errors, 0 warnings, 0 hints",
+    "pnpm type-check": "passed",
+    "pnpm build": "passed; 40 pages built, 18 pages indexed",
+    "six-guide badge/link/fork guidance check": "passed",
+    "git diff --check": "passed"
+  },
+  "rendered_page": "http://127.0.0.1:4677/projects/firefly/",
+  "screenshot": {
+    "file": "project-guide-desktop.png",
+    "width": 65536,
+    "height": 4292542531
+  },
+  "hosted_wasmer_deployment_run": false,
+  "build_notes": [
+    "npm reports an unknown manage-package-manager-versions setting",
+    "Vite reports a large JavaScript chunk",
+    "Pagefind skips 5 redirect pages without an html element"
+  ]
+}
